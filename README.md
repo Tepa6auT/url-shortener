@@ -1,4 +1,4 @@
-# [URL Shortener Microservice](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/url-shortener-microservice)
+# [URL Shortener Microservice](https://boilerplate-project-urlshortener.tepa6aut.repl.co/)
 
 You can POST an URL to /api/shorturl/new and get a JSON response with original_url and short_url properties. 
 
