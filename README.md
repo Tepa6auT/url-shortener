@@ -4,3 +4,5 @@ You can POST a URL to /api/shorturl/new and get a JSON response with original_ur
 Here's an example: { original_url : 'https://freeCodeCamp.org', short_url : 1}
 
 When you visit /api/shorturl/<short_url>, you will be redirected to the original URL.
+
+Environment variable is set to connect to AtlasDB
