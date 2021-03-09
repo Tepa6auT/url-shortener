@@ -8,8 +8,7 @@ const dns = require('dns');
 
 // Basic Configuration
 
-process.env.MONGO_URI="mongodb+srv://tepa6aut:<password>@cluster0.sbkcl.mongodb.net/test?retryWrites=true&w=majority";
-
+mongoose.connect(process.env.DB_URI); //env variable to connect to db
 
 mongoose.connect(process.env.MONGO_URI)
 
