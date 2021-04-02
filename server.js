@@ -10,9 +10,6 @@ const dns = require('dns');
 
 mongoose.connect(process.env.DB_URI); //env variable to connect to db
 
-mongoose.connect(process.env.MONGO_URI)
-
-
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
